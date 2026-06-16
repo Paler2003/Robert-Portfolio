@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import FeaturedProject from "./components/FeaturedProject.jsx";
+import TagumProject from "./components/TagumProject.jsx";
 import SkillsInventory from "./components/SkillsInventory.jsx";
 import Timeline from "./components/Timeline.jsx";
 import TrainingStrip from "./components/TrainingStrip.jsx";
@@ -42,6 +43,7 @@ function App() {
       <main id="main">
         <Hero />
         <FeaturedProject />
+        <TagumProject />
         <SkillsInventory />
         <Timeline />
         <TrainingStrip />

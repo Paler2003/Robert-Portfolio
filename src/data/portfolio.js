@@ -39,6 +39,36 @@ export const project = {
   ],
 };
 
+export const tagumProject = {
+  name: "City Government of Tagum",
+  eyebrow: "Professional work",
+  title: "Official website of the City Government of Tagum.",
+  summary:
+    "The official web platform for the City Government of Tagum, serving residents, visitors, and businesses with digital governance services and city information.",
+  stack: ["Web Development", "CMS Management", "Content Strategy", "UI/UX", "Digital Governance"],
+  url: "https://tagumcity.gov.ph",
+  role: "Web Developer",
+  department: "City Information Office",
+  highlights: [
+    {
+      title: "Website management",
+      detail: "Full management of the official city government website, ensuring content accuracy and platform reliability.",
+    },
+    {
+      title: "Content operations",
+      detail: "Publishing and maintaining city announcements, services, and governance information for public access.",
+    },
+    {
+      title: "Digital presence",
+      detail: "Maintaining the city's digital footprint across resident services, visitor information, and business resources.",
+    },
+    {
+      title: "User experience",
+      detail: "Optimizing the website interface for accessibility, responsiveness, and streamlined citizen interaction.",
+    },
+  ],
+};
+
 export const skillGroups = [
   {
     id: "core",
@@ -145,6 +175,16 @@ export const timeline = [
     impact: "Top 25 Young Leaders Congress",
     detail:
       "Directs program activities, coordinates requirements, and keeps leadership tasks aligned with project goals.",
+  },
+  {
+    period: "Jan 28, 2026 - Present",
+    type: "Work",
+    title: "Web Developer",
+    organization: "City Information Office, City Government of Tagum",
+    location: "New City Hall, Tagum City",
+    impact: "Official government website management",
+    detail:
+      "Manages and maintains the official City Government of Tagum website (tagumcity.gov.ph), handling web development, content updates, and digital governance services for the city's online platform.",
   },
   {
     period: "Expected Jun 26, 2026",
