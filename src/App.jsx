@@ -42,12 +42,14 @@ function App() {
       <Header />
       <main id="main">
         <Hero />
-        <FeaturedProject />
-        <TagumProject />
-        <SkillsInventory />
-        <Timeline />
-        <TrainingStrip />
-        <Contact />
+        <div className="content-blur-wrapper">
+          <FeaturedProject />
+          <TagumProject />
+          <SkillsInventory />
+          <Timeline />
+          <TrainingStrip />
+          <Contact />
+        </div>
       </main>
     </div>
   );
