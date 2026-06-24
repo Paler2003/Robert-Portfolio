@@ -55,11 +55,11 @@ function SkillsInventory() {
         })}
       </div>
 
-      <div className="skills-grid" data-reveal>
+      <div className="skills-grid">
         {visibleGroups.map((group) => {
           const Icon = groupIcons[group.id];
           return (
-            <article className="skill-panel" key={group.id}>
+            <article className="skill-panel" key={group.id} data-reveal>
               <div className="skill-panel-heading">
                 <span className="skill-panel-icon">
                   <Icon size={20} aria-hidden="true" />

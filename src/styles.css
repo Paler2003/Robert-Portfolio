@@ -1242,6 +1242,11 @@ img {
   padding: 12px 13px;
 }
 
+.contact-form select option {
+  background: var(--surface-strong);
+  color: var(--text);
+}
+
 .contact-form input:hover,
 .contact-form select:hover,
 .contact-form textarea:hover,

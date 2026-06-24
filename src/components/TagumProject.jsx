@@ -18,7 +18,7 @@ function TagumProject() {
       <article className="project-bento tagum-bento" data-reveal>
         <div className="project-copy">
           <div className="project-logo-row">
-            <img src="/assets/tagum-city-logo.png" alt="City Government of Tagum logo" />
+            <img src={`${import.meta.env.BASE_URL}assets/tagum-city-logo.png`} alt="City Government of Tagum logo" />
             <div>
               <span className="project-label">Web Developer &mdash; City Information Office</span>
               <h3>{tagumProject.title}</h3>
@@ -78,7 +78,7 @@ function TagumProject() {
 
             <div className="browser-content">
               <div className="browser-nav-preview">
-                <img src="/assets/tagum-city-logo.png" alt="" aria-hidden="true" className="browser-logo" />
+                <img src={`${import.meta.env.BASE_URL}assets/tagum-city-logo.png`} alt="" aria-hidden="true" className="browser-logo" />
                 <div className="browser-nav-links">
                   <span>We Are Tagum</span>
                   <span>For Residents</span>

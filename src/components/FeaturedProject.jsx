@@ -18,7 +18,7 @@ function FeaturedProject() {
       <article className="project-bento" data-reveal>
         <div className="project-copy">
           <div className="project-logo-row">
-            <img src="/assets/calorieko-logo.jpg" alt="CalorieKo logo" />
+            <img src={`${import.meta.env.BASE_URL}assets/calorieko-logo.jpg`} alt="CalorieKo logo" />
             <div>
               <span className="project-label">Capstone thesis</span>
               <h3>{project.title}</h3>
@@ -56,7 +56,7 @@ function FeaturedProject() {
               <span />
             </div>
             <div className="app-card-top">
-              <img src="/assets/calorieko-logo.jpg" alt="" aria-hidden="true" />
+              <img src={`${import.meta.env.BASE_URL}assets/calorieko-logo.jpg`} alt="" aria-hidden="true" />
               <div>
                 <strong>CalorieKo</strong>
                 <small>Nutrition capture</small>

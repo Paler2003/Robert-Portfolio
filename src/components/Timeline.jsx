@@ -22,11 +22,11 @@ function Timeline() {
         </p>
       </div>
 
-      <div className="timeline-list" data-reveal>
+      <div className="timeline-list">
         {timeline.map((item) => {
           const Icon = typeIcons[item.type] ?? CalendarDays;
           return (
-            <article className="timeline-item" key={`${item.period}-${item.title}`}>
+            <article className="timeline-item" key={`${item.period}-${item.title}`} data-reveal>
               <div className="timeline-marker">
                 <Icon size={18} aria-hidden="true" />
               </div>
