@@ -2,7 +2,7 @@ export const profile = {
   name: "John Robert A. Paler",
   title: "Full Stack Developer",
   location: "Tagum City, Davao del Norte",
-  email: "jrapaler00282@usep.edu.ph",
+  email: "palerj183@gmail.com",
   phone: "09101918839",
   github: "https://github.com/Paler2003",
   availability: "Available for Q3/Q4 2026 Freelance Contracts.",

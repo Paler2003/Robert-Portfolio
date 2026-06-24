@@ -36,6 +36,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <div className="global-bg"></div>
       <a className="skip-link" href="#main">
         Skip to content
       </a>

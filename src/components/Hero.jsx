@@ -10,7 +10,7 @@ function Hero() {
           <div className="hero-kicker">
             IT Freelancer ready for hire
           </div>
-          <h1 id="hero-title">Building Scalable Full-Stack Solutions with Pixels and Code.</h1>
+          <h1 id="hero-title">Building Scalable Full Stack Solutions with Pixels and Code.</h1>
           <p className="hero-copy">
             {profile.name} blends backend logic, database discipline, and sharp UI/UX instincts to ship responsive web
             systems that feel polished and work reliably.
